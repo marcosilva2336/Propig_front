@@ -1,0 +1,482 @@
+/* Variaveis do ROOT*/
+:root {
+    --color-primary: #7380ec;
+    --color-sucess: #41f1b6;
+    --color-warning: #ffbb55;
+    --color-danger: #f80b0b;
+    --color-white: #fff;
+    --color-info-dark: #7d8da1;
+    --color-info-light: #dce1eb;
+    --color-dark: #363949;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-primary-variant: #111e88;
+    --color-dark-variant: #677483;
+    --color-background: #f6f6f9;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+
+
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+
+
+
+/*--------Dark THEME VARIVAIES*/
+
+
+.add-button p {
+    background-color: transparent;
+    align-self: center;
+    color: #181a1e;
+}
+
+.details {
+    color: #7380ec;
+    cursor: pointer;
+}
+
+.middle {
+    position: relative;
+    display: flex;
+    width: 400px;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+
+.main-cliente {
+    height: 100vh;
+    font-size: 14px !important;
+    font-family: poppins, sans-serif;
+    width: 100%;
+    padding: 1.5%
+}
+
+.research {
+    display: flex;
+    width: 95%;
+    margin-left: 1%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.research input::placeholder {
+    color: var(--color-info-dark);
+}
+
+.research input {
+    border-bottom: 0.5px solid black;
+    background-color: var(--color-background);
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.research button {
+    cursor: pointer;
+    height: 25px;
+    width: 100px;
+    margin-left: 24px;
+    position: relative;
+    transition: 1.5s;
+    border-radius: 5px;
+}
+
+.research button:hover {
+    color: whitesmoke;
+    background-color: #035885;
+}
+
+
+
+.profile-photo {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.text-muted {
+    color: var(--color-info-dark);
+}
+
+p {
+    color: var(--color-dark-variant);
+}
+
+b {
+    color: var(--color-dark);
+}
+
+.primary {
+    color: var(--color-primary);
+
+}
+
+.danger {
+    color: var(--color-danger);
+}
+
+.success {
+    color: var(--color-sucess);
+}
+
+.warning {
+    color: var(--color-warning);
+}
+
+
+
+aside .top {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+}
+
+aside.logo {
+    display: flex;
+    gap: 0.8rem;
+}
+
+aside .close {
+    display: none;
+}
+
+/*sidebar*/
+
+aside .sidebar {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    position: relative;
+    top: 3rem;
+}
+
+aside h3 {
+    font-weight: 500;
+}
+
+aside .sidebar a {
+    display: flex;
+    color: var(--color-info-dark);
+    margin-left: 1rem;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+    height: 3.7rem;
+    transition: all 300ms ease;
+}
+
+.toggle-button {
+    display: flex;
+    color: var(--color-info-dark);
+    margin-left: 1rem;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+    height: 3.7rem;
+    transition: all 300ms ease;
+}
+
+
+
+
+
+aside .sidebar button {
+    cursor: pointer;
+    color: var(--color-info-dark);
+    background-color: transparent;
+
+}
+
+
+aside .sidebar a span {
+    font-size: 1.6rem;
+    transition: all 300ms ease;
+}
+
+aside .sidebar .toggle-button span {
+    font-size: 1.6rem;
+    transition: all 300ms ease;
+}
+
+
+
+aside .sidebar a.active {
+    background: var(--color-light);
+    color: #035885;
+    margin-left: 0;
+}
+
+aside .sidebar a.active:before {
+    content: "";
+    width: 6px;
+    height: 100%;
+    background: #035885;
+}
+
+aside .sidebar a.active span {
+    color: #035885;
+    margin-left: calc(1rem - 3px);
+}
+
+aside .sidebar a:hover {
+    color: #035885;
+}
+
+aside .sidebar .toggle-button:hover {
+    color: #035885;
+    margin-left: 1rem;
+}
+
+
+aside .sidebar a:hover span {
+    margin-left: 0.2rem;
+}
+
+aside .sidebar .message-count {
+    background: var(--color-primary-variant);
+    color: var(--color-white);
+    padding: 2px 10px;
+    font-size: 12px;
+    border-radius: var(--border-radius-1);
+}
+
+
+
+/* ===============Pedidos recentes========*/
+.recent-orders {
+    margin-top: 2rem;
+}
+
+.recent-orders h2 {
+    margin-bottom: 0.8rem;
+}
+
+main .recent-orders table {
+    background: var(--color-white);
+    width: 100%;
+    margin-left: 0.5%;
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+main .recent-orders table:hover {
+    box-shadow: none;
+}
+
+main table tbody td {
+    height: 2.8rem;
+    border-bottom: 1px solid var(--color-light);
+    color: var(--color-dark-variant);
+}
+
+main table tbody tr:last-child td {
+    border: none;
+}
+
+main .recent-orders a {
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    color: #046ba3;
+}
+
+/*=========RIGHT========*/
+
+.right {
+    margin-top: 1.4rem;
+}
+
+.right .top {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.right .top button {
+    display: none;
+}
+
+.right .theme-toggler {
+    background: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    height: 1.6rem;
+    width: 4.2rem;
+    border-radius: var(--border-radius-1);
+    cursor: pointer;
+}
+
+.right .theme-toggler span {
+    font-size: 1.2rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .theme-toggler span.active {
+    background: #046ba3;
+    color: white;
+    border-radius: var(--border-radius-1);
+}
+
+.right .top .profile {
+    display: flex;
+    gap: 2rem;
+    text-align: right;
+}
+
+/*=====ATUALIZACACOES RECENTES=====*/
+
+.right .recent-updates {
+    width: 360px;
+    margin-bottom: 3.0rem;
+}
+
+.right .recent-updates-2 {
+    width: 360px;
+    margin-bottom: 30rem;
+}
+
+
+.right .recent-updates h2 {
+    margin-bottom: 0.8rem;
+}
+
+.right .recent-updates-2 h2 {
+    margin-bottom: 0.8rem;
+}
+
+.right .recent-updates .updates {
+    background: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.right .recent-updates-2 .updates {
+    background: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.right .recent-updates .updates:hover {
+    box-shadow: none;
+}
+
+.right .recent-updates-2 .updates:hover {
+    box-shadow: none;
+}
+
+.right .recent-updates .updates .update {
+    display: grid;
+    grid-template-columns: 2.6rem auto;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.right .recent-updates-2 .updates .update {
+    display: grid;
+    grid-template-columns: 2.6rem auto;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/*====MEDIA QUERIES===================*/
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 94%;
+    }
+
+    .main-cliente {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+        height: 100vh;
+    }
+
+    .updates {
+        max-width: 100%;
+    }
+
+    .recent-updates {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    main .recent-orders {
+        position: relative;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    main .recent-orders table {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    main .recent-orders table tr {
+        flex-direction: column;
+    }
+
+    .right {
+        width: 100%;
+        margin: 0;
+    }
+
+    .right .top {
+        position: fixed;
+        top: 0;
+        left: 0;
+        align-items: center;
+        padding: 0 0 0.8rem;
+        height: 4.6rem;
+        background: var(--color-white);
+        width: 100%;
+        margin: 0;
+        z-index: 2;
+        box-shadow: 0 1rem 1rem var(--color-light);
+    }
+
+    .right .top .theme-toggler {
+        width: 4.4rem;
+        position: absolute;
+        left: 66%;
+    }
+
+    .right .top button {
+        display: inline-block;
+        background: transparent;
+        cursor: pointer;
+        color: var(--color-dark);
+        position: absolute;
+        left: 1rem;
+    }
+
+    .right .top button span {
+        font-size: 2rem;
+    }
+
+
+}

@@ -1,0 +1,229 @@
+:root {
+    --color-primary: #7380ec;
+    --color-sucess: #41f1b6;
+    --color-warning: #ffbb55;
+    --color-danger: #f80b0b;
+    --color-white: #fff;
+    --color-info-dark: #7d8da1;
+    --color-info-light: #dce1eb;
+    --color-dark: #363949;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-primary-variant: #111e88;
+    --color-dark-variant: #677483;
+    --color-background: #f6f6f9;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+
+
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+
+.container-2 {
+    min-height: 100vh;
+    font-size: 14px !important; 
+    font-family: poppins, sans-serif;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 23rem;
+    min-width: 100vw;
+    padding: 1.5%;
+}
+
+main .config {
+    margin-top: 2rem;
+    width: 50%;
+    height: 92%;
+    display: flex;
+    
+}
+
+aside{
+    width: 200px;
+}
+
+
+
+.config{
+   margin-left: 10px;
+   height: 80%;
+
+}
+
+main .config-titulo {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+main .config-conteudo {
+    background: var(--color-white);
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    box-shadow: var(--box-shadow);
+    transition: all 200ms ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .config h2 {
+    margin-left: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.endereco  input[type="text"] {
+    width: 49.5%;
+    margin-bottom: 10px;
+    color: #000000;
+    background-color: #ebebeb;
+    /*margin: 0.6rem 0;*/
+    padding: 0.8rem 1.2rem; 
+    border: none;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);  
+}
+
+.dados-pessoais input[type="text"] {
+    width: 49.5%;
+    margin-bottom: 10px;
+    color: #000000;
+    background-color: #ebebeb;
+    /*margin: 0.6rem 0;*/
+    padding: 0.8rem 1.2rem; 
+    border: none;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);  
+}
+
+.upload-icon{
+    cursor: pointer;
+    margin-left: 185px;
+}
+
+/* Estilo para a imagem */
+img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Estilo para o input de arquivo */
+input[type="file"] {
+    display: none;
+}
+input::placeholder{
+    color: #000000;
+}
+
+.profile-picture img {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit:cover;
+   /*margin-left: 4rem;*/
+ 
+}
+.profile-picture input[type="profile"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    opacity: 0;
+    cursor: pointer;
+}
+.img-container {
+    
+    justify-content:center;
+    display: flex;
+    margin-bottom: 2rem;
+
+    
+}
+/***********Modificações************/
+/*AQUI COLOQUEI ESSE UL/LI PARA SER O TITULO*/
+/*ACABEI TIRANDO O FORM MAS DEXEI COMENTADO NA ULTIMA LINHA PARA CASO FOR USAR*/
+/*DEPOIS CRIEI UMA DIV E COLOQUEI UMA CLASSE PARA O TITULO DADOS PESSOAL, ENDEREÇO E SETTINGS
+E EDITEI SUA CLASSE OCUPAR 100% DA CLASSE CONFIG-CONTEUDO E OUTRAS COISAS*/
+/*E O LABEL E OS INPUT COLOQUEI O TAMANHO DE 49.5 PARA OS LABEL/INPUT DIVIDIR EM 
+DOIS NO TELA E TER UM ESPAÇAMENTO ENTRE ELES [POIS ISSO O JUSTIFIFY:SPACE-BETWEEN] */
+.config-conteudo ul{
+    width: 100%;
+}
+.config-conteudo ul li{
+    list-style: disc;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 2rem;
+}
+main .config-conteudo .dados-pessoais{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+main .config-conteudo .endereco{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.config-conteudo .settings{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.config-conteudo label {
+    margin-bottom: 15px;
+    width: 49.5%;
+    font-size: 13px;
+}
+
+main .config-conteudo .butao{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    justify-content: space-around;
+}
+
+.save-btn {
+    background-color: #4CAF50; 
+    border: none; 
+    border-radius: 15px;
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s; 
+}
+
+.save-btn:hover {
+    background-color: white; 
+    color: black;
+}

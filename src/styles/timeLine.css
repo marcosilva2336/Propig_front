@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+
+
+
+.time-line{
+    gap: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 1500px;
+    max-height: 1800px;
+}
+
+.tl{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+.tl span{
+    color: #ffcb00;
+}
+
+.tl h1{
+    font-family: 'Arimo', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    position: relative;
+    justify-content: center;
+}
+
+.timeline-header-father{
+    display: flex; 
+    border-bottom: 1px solid black;
+}
+
+.timeline-header-mother{
+    display: flex; 
+}
+
+.timeline-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-element{
+    border-right: 1px solid black;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-element-p{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-element-mother{
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vertical{
+    border-top: 1px solid black;
+    min-width: 1500px;
+}
+
+
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .admin-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .admin-form select {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+    background-color: #f5f5f5;
+    appearance: none;
+  }
+  
+  .admin-form select option {
+    color: #333;
+  }
+  
+  .admin-form button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3498db;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .admin-form button[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+
+@media  screen and (max-width: 775px) {
+   
+    .tl{
+        margin-top: 0px;
+        flex-direction: column;
+    }
+    .timeline-header{
+        display: none;
+    }
+
+    .time-line{
+        width: 330px;
+        border: none;
+    }
+
+    .vertical{
+        border: none;
+        min-width: 330px;
+    }
+
+}
+
+

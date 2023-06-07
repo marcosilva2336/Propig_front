@@ -1,0 +1,542 @@
+.close-btn {
+  border-bottom-left-radius:5px ;
+  background-color: #FFD400;
+  margin-top: 0px;
+  position: absolute;
+  /* adiciona posição absoluta ao botão */
+  top: 0;
+  /* posiciona o botão no topo do formulário */
+  right: 0;
+  /* posiciona o botão no canto direito do formulário */
+
+}
+
+
+
+.area-propigs {
+  gap: 25px;
+  min-height: 400px;
+  background-color: #035885;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.middle-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.area-propigs h1 {
+  color: white;
+  font-size: 35px;
+}
+
+.area-propigs h4 {
+  color: white;
+  font-size: 15px;
+  width: 300px;
+  text-align: justify;
+ 
+}
+
+.benefit {
+  font-size: 20px;
+  font-weight: 1000;
+  color: #194da6;
+}
+
+.nothing {
+  gap: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+}
+
+.img-figure {
+  width: 100px;
+  height: 100px;
+}
+
+.figures {
+  gap: 35px;
+  display: flex;
+}
+
+.close-btn svg {
+  font-size: 24px;
+  color: #444;
+  cursor: pointer;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #035885;
+}
+
+.welcome-text {
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 350px;
+  height: 350px;
+  gap: 23px;
+  background-color: aliceblue;
+  border-radius: 13px;
+  box-shadow: 2px 5px 2px black;
+}
+
+.login-form-2-input {
+  outline: 0;
+  width: 300px;
+  height: 30px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid black;
+  background-color: aliceblue;
+}
+
+.login-form-2 a {
+  color: black;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+  border-bottom: 0.5px solid black;
+}
+
+.login-form-2 a:hover {
+  color: #FFD400;
+  border-bottom: none;
+}
+
+.submit {
+  height: 30px;
+  width: 200px;
+  color: black;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #FFD400;
+  transition: 0.5s;
+  border: 1px solid black;
+  box-shadow: 2px 5px aliceblue;
+}
+
+.submit-2 {
+  font-size: 15px;
+  border: none;
+  color: black;
+  height: 50px;
+  width: 250px;
+  background: #ffcb00;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.submit-2:hover {
+  color: #fff;
+  background: #0d6efd;
+}
+
+
+.welcome {
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.submit:hover {
+  color: #fff;
+  background: #035885;
+}
+
+.login-form-2 ::placeholder {
+  color: black;
+}
+
+.son-form {
+  display: flex;
+  width: 320px;
+  justify-content: space-between;
+}
+
+.custom-shape-divider-bottom-1681331361 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1681331361 svg {
+  position: relative;
+  display: block;
+  width: calc(130% + 1.3px);
+  height: 300px;
+}
+
+.custom-shape-divider-bottom-1681331361 .shape-fill {
+  fill: #003A58;
+}
+
+
+
+.custom-shape-divider-bottom-1681331603 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1681331603 svg {
+  position: relative;
+  display: block;
+  width: calc(130% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1681331603 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.home2 {
+  display: flex;
+}
+
+.welcome {
+  font-size: 27px;
+  color: #fff;
+  flex: 1;
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.welcome-text-2 {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  font-size: 13px;
+  flex-wrap: wrap;
+  height: 100px;
+  padding: 2%;
+  
+}
+
+
+.welcome-text h1 {
+  margin-top: 100px;
+  font-size: 25px;
+}
+
+.prazer {
+  color: #ffcb00;
+}
+
+.propig {
+  font-weight: bold;
+  color: rgb(20, 20, 160);
+}
+
+.maquininha2 {
+  width: 250px;
+  height: 250px;
+}
+
+.login-form {
+  width: 460px;
+  color: #fff;
+  background-color: #0d6efd;
+}
+
+.login-form form {
+  gap: 20px;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black !important;
+}
+
+.login-form h4 {
+  font-size: 13px;
+}
+
+.login-form input {
+  color: black;
+  outline: 0;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #fff;
+  background-color: #0d6efd;
+}
+
+.login-form ::placeholder {
+  color: #fff;
+}
+
+.login-form button {
+  margin-top: 30px;
+  cursor: pointer;
+  width: 250px;
+  height: 40px;
+  color: #fff;
+  border: 0.1px solid #fff;
+  border-radius: 7px;
+  background-color: #0d6efd;
+  transition: 0.8s;
+  font-size: 16px;
+}
+
+.login-form button:hover {
+  color: #0d6efd;
+  background-color: #fff;
+}
+
+.box-rastreio-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background-color: #ffcb00;
+  border-radius: 5px;
+  gap: 10px;
+  color: black !important;
+}
+
+.box-rastreio-2 input {
+  margin-top: 3px;
+  height: 15px;
+  width: 250px;
+  border-radius: 4px;
+  border: 0.5px solid;
+  outline: 0;
+  color: black !important;
+}
+
+.box-rastreio-2 form {
+  gap: 10px;
+  display: flex;
+
+}
+
+.box-rastreio-2 label {
+  align-items: center;
+  justify-content: center;
+  margin-top: 6.5px;
+}
+
+.box-rastreio-2 button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.login-form a {
+  cursor: pointer;
+  color: #fff;
+  border: 0.1px solid #fff;
+  width: 250px;
+  height: 40px;
+  color: #fff;
+  border: 0.1px solid #fff;
+  border-radius: 7px;
+  background-color: #0d6efd;
+  transition: 0.8s;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.login-form a:hover {
+  color: #0d6efd;
+  background-color: #fff;
+}
+
+
+@media screen and (min-width:775px) {
+  
+.area-propigs {
+  gap: 25px;
+  min-height: 100vh;
+  background-image: url("../assets/propigs.webp");
+  background-repeat: no-repeat;
+  background-size: 99.9%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.middle-2{
+  width: 63%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  margin-right: 600px;
+}
+
+.area-propigs h1{
+  font-size: 70px;
+}
+
+.area-propigs h4{
+  font-size: 25px;
+  width: 400px;
+  text-align: start;
+}
+
+.benefit{
+  font-size: 30px;
+  font-weight: 1000;
+  color: #194da6;
+}
+
+.nothing{
+  gap: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+}
+
+.img-figure{
+  width: 300px;
+  height: 200px;
+}
+
+.figures{
+  gap: 35px;
+  display: flex;
+}
+.close-btn svg {
+  font-size: 24px;
+  color: #444;
+  cursor: pointer;
+}
+
+.wrapper{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #035885;
+}
+
+.welcome-text{
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  
+}
+
+.welcome-text h1{
+  font-size: 35px;
+}
+
+.welcome-text h4{
+  font-size: 15px;
+}
+
+.maquininha2{
+  width: 370px;
+  height: 370px;
+}
+
+
+.login-form-2{
+  position: relative;
+  height: 400px;
+  gap: 23px;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 13px;
+}
+
+.login-form-2-input{
+  outline: 0;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid black;
+  background-color: aliceblue;
+}
+
+.login-form-2 a{
+  color: black;
+  text-decoration: none;
+}
+
+.submit{
+  height: 30px;
+  width: 200px;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #FFD400;
+  transition: 0.5s;
+}
+
+.submit-2{
+  font-size: 20px;
+  border: none;
+  color: black;
+  height: 50px;
+  width: 415px;
+  background: #ffcb00;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.7s;
+ }
+
+
+
+}
+
+
+
+
